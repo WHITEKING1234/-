@@ -13,4 +13,6 @@ var g: Int = 1
 for nadik in 1...10{
     print("1*\(nadik) = \(nadik*g)")
 }
+
+
     
