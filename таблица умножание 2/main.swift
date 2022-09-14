@@ -14,14 +14,14 @@ for nadik in 1...10{
     print("1*\(nadik) = \(nadik*g)")
 }
 
-func printName(){
-    print("about myself")
+func printName(name :String){
+    print("Меня зовут \(name)")
+    
 }
-print("My names-Akbar")
-print("surname-Roziev")
-print("Age-18")
-print("My number-0700632230")
-print("Iam born in Oh")
+print("Напишите свое имя")
+let name23 = readLine()!
+printName(name: name23)
+
 
 
 
